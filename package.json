@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "buils": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ub-victor/Restaurant-website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ub-victor/Restaurant-website/issues"
+  },
+  "homepage": "https://github.com/ub-victor/Restaurant-website#readme",
   "description": "",
-  "dependencies": {
-    "tailwindcss": "^3.4.17"
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwind": "^4.0.0"
   }
 }
