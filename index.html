@@ -35,10 +35,10 @@
             </nav>
         </div><!-- End of nav -->
 
-        <main class="px-16 py-6"> 
-            <div>
-                <a href="#">Log in</a>
-                <a href="#">Sign up</a>
+        <main class="px-16 py-6 bg-gray-100"> 
+            <div class="flex justify-center md:justify-end">
+                <a href="#" class="text-red-500">Log in</a>
+                <a href="#" class="text-red-500 ml-2">Sign in</a>
             </div>
 
             <header>
@@ -50,11 +50,14 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
                 <div class="mt-8 ">
                     <!-- Cards go here!-->
-                     <div>
-                        <img src="img/stew.jpg" alt="stew" ><!--4:46--> 
-                        <div>
-                            <span>5 Bean stew</span>
-                            <span>Recipe by Victor & Constant</span>
+                     <div class="bg-white rounded overflow-hidden shadow-md relative">
+                        <img src="img/stew.jpg" alt="stew" class="w-full h-32 sm:48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">5 Bean stew</span>
+                            <span class="block text-gray-500 text-sm">Recipe by Victor & Constant</span>
+                        </div>
+                        <div class="bg-gray-200 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-2 mt-2"> 
+                            <span>25 mins</span>
                         </div>
                      </div>
                 </div>
@@ -62,9 +65,8 @@
                 <div class="mt-8 ">
                     <!-- Cards go here-->
                 </div>
-                <div>
-                   
-                    <div>Load more</div>
+                <div class="flex justify-center">
+                    <div class="bg-gray-300 text-gray-100">Load more</div>
 
                 </div>
             </div>
