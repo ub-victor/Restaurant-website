@@ -578,12 +578,20 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-32 {
   height: 8rem;
 }
 
 .w-full {
   width: 100%;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .justify-center {
@@ -708,6 +716,12 @@ video {
   line-height: 1rem;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .sm\:h-48 {
+    height: 12rem;
+  }
 }
 
 @media (min-width: 768px) {
