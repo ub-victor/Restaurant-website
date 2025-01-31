@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./dist/styles.css">
 </head> 
 <body class="text-gray-600">
-    <div><!-- Content wrapper-->
-        <div>
+    <div class="grid md:grid-cols-3"><!-- Content wrapper-->
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-100">
@@ -35,7 +35,7 @@
             </nav>
         </div><!-- End of nav -->
 
-        <main class="px-16 py-6 bg-gray-100"> 
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2"> 
             <div class="flex justify-center md:justify-end">
                 <a href="#" class="text-red-500">Log in</a>
                 <a href="#" class="text-red-500 ml-2">Sign in</a>
@@ -48,7 +48,7 @@
 
             <div>
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
-                <div class="mt-8 grid grid-cols-3">
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
                     <!-- Cards go here!-->
                      <div class="card">
                         <img src="img/stew.jpg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
